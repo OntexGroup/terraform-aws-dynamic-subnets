@@ -1,6 +1,6 @@
 variable "subnet_type_tag_key" {
   type        = string
-  default     = "cpco.io/subnet/type"
+  default     = "Tier"
   description = "Key for subnet type tag to provide information about the type of subnets, e.g. `cpco.io/subnet/type=private` or `cpco.io/subnet/type=public`"
 }
 
